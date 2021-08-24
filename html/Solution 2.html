@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 2</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/Tun.ico" type="image/x-icon">
+</head>
+
+<body class="asia_body fade-in">
+    <span class="bgopacity"></span>
+    <nav role='navigation' id="nav" class="nav_dark">
+        <a data-page="home" class="" href="../index.html">Home</a>
+        <a data-page="solution" class="" href="Solution 1.html">Solution 1</a>
+        <a data-page="survey" class="active" href="Solution 2.html">Solution 2</a>
+        <a data-page="about" class="" href="Solution 3.html">Solution 3</a>
+        <a data-page="about" class="" href="aboutus.html">About US</a>
+        <span class="nav_hero">Diggy Tunny</span>
+        <a href="javascript:void(0);" class="nav_icon" onclick="openNav()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </a>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </nav>
+
+    <div class="title_div">
+        <a href="../index.html"><img src="../images/logo.png" alt="Diggy Tunny Logo"></a>
+        <h1>Solution 2</h1>
+    </div>
+
+    <article>
+        <div class="p_container">
+            <span class="section_title article_animation">Abstract:</span><br><p class="p_article article_animation">Portable device batteries ran out of batteries much faster than before, so a biomechanical mechanism to harvest energy from human motion was made. Also, gadgets which people always bring with them seem to lack the ability to preserve their energy. It is an energy harvesting device that is mostly concerned with the heel strike of a gait cycle. The idea of the device was to convert the vertical motion from the heel strike to a rotational motion that would help in generating power energy from an AC motor.
+                </p>
+                <span class="section_title article_animation">Mechanism:</span><br><p class="p_article article_animation">Using the center of mass had been proved to be one of the most efficient solutions to harvest human energy by using a suspended-loaded backpack. The solution has managed to generate power as much as 7.4 W. during fast walking using a 38-kg. load on the backpack. The idea of the design is to make the load move freely down and up during walking motion which helps to generate more power energy and electricity by attaching a toothed rack to the load plate. Also, it is attached a geared dc motor to the backpack frame and connect to the toothed rack on the load plate, as the system acts as a generator.<br>These helped in generating an extra 50 M.W. by linking a piezoelectric material on the shoulder strap of a 44 kg. backpack. So, the energy harvesting device presented two challenges. The first one is to design a device- as shown in figure 1- that is small enough to be installed near the heel but still effective enough to generate much electricity. The second challenge is to make the device- as shown in figure 2- that could convert the linear force from the heel strike to drive the gears in rotary motion. It is evaluated different kinds of methods in producing electrical energy from mechanical work which could be installed in a small device. The first one is by using a piezoelectric material for generating power energy. The second alternative method is by making a motor as a generator on the device. While it is difficult to apply its counterpart, a motor as a generator has been used. It has a great mechanical to electrical energy conversion efficiency, as it usually works and is driven by gears. The ratio of the gear will help in determining the angular velocity of the motor which will help in affecting the energy output from the motor. For calculating the energy output and the efficiency of the design, the following equations could be used:<br>omega<sub>g</sub> = omega<sub>i</sub> * r<sub>t</sub><br>where omega<sub>g</sub> is the angular velocity applied to the generator, in this case, the motor, r<sub>t</sub> is the gear ratio and omega<sub>i</sub> is the input angular velocity, which in this way the angular velocity is applied to the first gear. Since it uses a heel strike as input, the angular velocity will be derived from:<br>V = omega<sub>i</sub> * r<sub>t</sub><br>Where V is the velocity of the heel strike and r is the radius of the handle. And the generator angular velocity is found, the equation will be used to find the output energy by applying the equation:<br>E = K<sub>g</sub> * W<sub>g</sub><br>Where K<sub>g</sub> is the constant of the back-EMF which would be dependent on the motor itself. The device has a dimension of 5.9cm. x 3.1cm. x 2.5cm, consists of 1 AC motor and 4 gears. It was more efficient to use an AC motor instead of a DC motor to compensate for the external movement of the device. DC motor only allows power generation in one direction while AC motor could generate power in either direction. So, in this way, the device could generate power during the heel strike and when the heel is off the ground. Also, the device has a gear ratio of 27.5:1.</p>
+                <img src="../images/Device 1.png" alt="Figure 1">
+                <figcaption class="article_animation">Figure 1; design of the device (small enough to be installed near the heel).</figcaption>
+                <img src="../images/Device 2.png" alt="Figure 2">
+                <figcaption class="article_animation">Figure 2; the device that could convert the linear force from the heel strike to drive the gears in rotary motion.</figcaption>
+                <span class="section_title article_animation">Advantages:</span>
+                <p class="p_article article_animation">1- Without any additional circuit and any load, the device could generate up to a maximum of 11.8 W. during the heel strike.</p><br><p class="p_article article_animation">2- It shows to have a maximum amount of approximately about 42.9% efficiency during the heel strike.</p>
+                <span class="section_title article_animation">Disadvantages:</span><p class="p_article article_animation">1- The disadvantage of using a backpack is the disturbance it brings, carrying a 40-kg backpack; could prevent lots of human daily activities.</p><br> <p class="p_article">2- First time the device was tested on the platform, it outputs an oscillated voltage from positive to negative because of the AC motor. </p>
+           
+
+
+        </div>
+    </article>
+
+    <span class="scrolltop" id="scrolltop">
+        <button id="scrollTopBtn" onclick="ScrollTop()" title="Scroll To Top">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="currentColor">
+                <g>
+                        <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M335.083,271.083
+               L228.416,377.749c-4.16,4.16-9.621,6.251-15.083,6.251c-5.461,0-10.923-2.091-15.083-6.251c-8.341-8.341-8.341-21.824,0-30.165
+               L289.835,256l-91.584-91.584c-8.341-8.341-8.341-21.824,0-30.165s21.824-8.341,30.165,0l106.667,106.667
+               C343.424,249.259,343.424,262.741,335.083,271.083z"/>
+               </g>
+            </svg>
+        </button>
+    </span>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
